@@ -1,4 +1,6 @@
 #!/bin/sh
+# Lists dark themes by default.
+# Light themes are listed if an argument is passed.
 
 cp -f ~/.cache/wal/colors.json /tmp/fzwal-backup.json
 
