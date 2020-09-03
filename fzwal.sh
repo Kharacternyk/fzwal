@@ -32,7 +32,7 @@ fi
 
 if [ -n "$FZWAL_RESET_CURSOR" ]; then
     for TTY in /dev/pts/*; do
-        [ -w $TTY ] && printf "\e]112\a" > $TTY
+        [ -w $TTY ] && /bin/printf "\e]112\a" > $TTY
     done
     exit 0
 fi
